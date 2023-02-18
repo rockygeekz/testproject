@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 3px 20px;
+}
+li a{
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+}
+nav{
+    background-color: blueviolet;
+    padding: 4px;
+    border: 1px solid white;
+    /* border-radius: 21px; */
+}
+
+.conainer{
+    margin: 12px auto;
+    max-width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+input,textarea,button{
+    display: block;
+    margin: 30px auto;
+    padding: 3px 30px;
+    /* margin: auto; */
+}
